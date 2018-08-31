@@ -1,0 +1,39 @@
+.Overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .Overlay-header {
+      display: flex;
+      flex-shrink: 10;
+  }
+  
+  .Overlay-leftHeader {
+    margin-top: -100px;
+    background-color: white;
+    height: 150px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: darkred;
+    text-align: center;
+    flex: 2;
+  }
+
+  .Overlay-rightHeader {
+    margin-top: -100px;
+    background-color: white;
+    height: 150px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: darkred;
+    text-align: center;
+    flex: 1;
+  }
+
+  .Overlay-centerHeader {
+      flex: 3;
+  }

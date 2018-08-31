@@ -1,0 +1,37 @@
+.leftheader {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftheader-img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height: 130px;
+    border-right: 10px transparent solid;
+}
+
+.leftheader-media {
+    display: flex;
+    margin-top: 0px;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 6px black solid;
+    border-bottom: 15px transparent solid;
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 100px;
+}
+
+.leftheader-fb {
+    font-size: 20px;
+    color: rgb(0, 81, 128);
+    margin: 0 5px;
+}
+
+.leftheader-twitter {
+    font-size: 20px;
+    color: rgb(95, 196, 236);
+    margin: 0 5px;
+}
+
