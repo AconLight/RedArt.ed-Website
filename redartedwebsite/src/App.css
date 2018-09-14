@@ -1,5 +1,20 @@
 .App {
-  text-align: center;
+
+}
+
+#background-video {
+  width: 100vw;
+}
+
+@media only screen and (max-width: 175.892857vh) {
+  #background-video {
+    width: auto;
+    height: 100vh;
+  }
+}
+
+html, body {
+  overflow: hidden;
 }
 
 .App-logo {

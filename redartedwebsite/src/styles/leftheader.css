@@ -4,34 +4,45 @@
 }
 
 .leftheader-img {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    height: 130px;
-    border-right: 10px transparent solid;
+    cursor: pointer;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    height: 13vw;
+    border-right: 1vw transparent solid;
 }
 
 .leftheader-media {
     display: flex;
-    margin-top: 0px;
-    text-align: left;
-    justify-content: center;
     flex-direction: column;
-    border-left: 6px black solid;
-    border-bottom: 15px transparent solid;
-    padding-top: 20px;
-    padding-left: 10px;
-    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    border-left: 1vw rgba(255, 255, 255, 0.1) double;
+    border-bottom: 1.5vw transparent solid;
+    padding-top: 3vw;
+    padding-left: 0;
+    height: 10vw;
 }
 
-.leftheader-fb {
-    font-size: 20px;
-    color: rgb(0, 81, 128);
-    margin: 0 5px;
+.leftheader-media-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5vw 1vw;
 }
 
-.leftheader-twitter {
-    font-size: 20px;
-    color: rgb(95, 196, 236);
-    margin: 0 5px;
+.leftheader-media-icon {
+    height: 3vw;
+    padding: 1vw 0;
+}
+
+.leftheader-media-icon-container {
+    width: 5vw;
+    margin: 0px 0.5vw;
+}
+
+.leftheader-media-icon-bigger {
+    height: 5vw;
 }
 

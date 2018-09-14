@@ -5,5 +5,4 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-document.body.style = 'background: linear-gradient(black, dimgray) fixed';
 registerServiceWorker();

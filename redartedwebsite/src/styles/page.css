@@ -1,24 +1,42 @@
 .Page {
-    margin: 0 50px;
-    height: calc(100vh - 250px);
-    background: rgba(40, 40, 40, 0.3);
-    border: 2px dimgray solid;
+    margin: 0 2vw;
+    height: calc(100vh - 25vw);
+    background: rgba(20, 20, 20, 0.8);
+    border: 0.4vw rgba(0, 0, 0, 0.1) solid;
+}
+
+.Page-main {
+    z-index: 6;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .Page-header {
-    margin-right: 200px;
-    margin-top: 150px;
-    height: 50px;
-    text-align: right;
-    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Page-header-left {
+    flex: 2;
+    width: auto;
+}
+
+.Page-header-center {
+    flex: 3;
+    margin-top: 0px;
+    height: 5vw;
+    margin-left: 10vw;
+    text-align: left;
+    font-size: 2vw;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     color: darkgray;
 }
 
 .Page-content {
-    margin: 30px 30px;
-    font-size: 15px;
+    margin: 3vw 3vw;
+    font-size: 1.5vw;
     font-family: 'Courier New', Courier, monospace;
     color: darkgray;
 }

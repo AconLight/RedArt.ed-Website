@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
-import '../styles/page.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Erron from './Erron';
 
 class Page extends Component {
+  constructor (props) {
+    super(props);
+  }
+
   render() {
     return (
       <div>
-        <div className="Page-header">
-            <div className="Page-header-left">
-            </div>
-            <div className="Page-header-center">
-                Czym jest RedArt.ed games?
-            </div>
-        </div>
-        <div className="Page">
-            <div className="Page-content">
-                Jesteśmy grupą "opóźnionych" artystów, którzy próbują robić gry.
-            </div>
-        </div>
+        <Erron currentGame={this.props.slides} />
       </div>
     );
   }

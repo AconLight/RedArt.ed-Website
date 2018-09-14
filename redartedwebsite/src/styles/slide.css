@@ -1,0 +1,38 @@
+.left-arrow {
+    transition: border-right-color 0.5s ease;
+    cursor: pointer;
+    margin-top: 40vh;
+    height: 0px;
+    border-top: 40px solid transparent;
+    border-right: 40px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 40px solid transparent;
+}
+
+.left-arrow:hover {
+    border-right-color: rgba(48, 0, 0, 0.7);
+}
+
+.right-arrow {
+    transition: border-left-color 0.5s ease;
+    cursor: pointer;
+    margin-top: 40vh;
+    height: 0px;
+    border-top: 40px solid transparent;
+    border-left: 40px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 40px solid transparent;
+}
+
+.right-arrow:hover {
+    border-left-color: rgba(48, 0, 0, 0.7);
+}
+
+.slide-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.slide {
+    flex: 20;
+}
