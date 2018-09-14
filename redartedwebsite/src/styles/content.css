@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+}
+
+.row-col {
+    flex-direction: column;
+}
+
+.row-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.text-starting-img {
+    max-height: 100%;
+    max-width: 30vw;
+    margin: 0 3vw;
+}

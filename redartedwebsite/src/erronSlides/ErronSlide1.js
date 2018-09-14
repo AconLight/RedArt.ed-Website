@@ -3,7 +3,7 @@ import ErronSlide2 from './ErronSlide2';
 
 class ErronSlide1 extends Component {
   static get title() {
-    return 'erron-title1';
+    return 'What is Erron? -> Devlog';
   }
   static get prev() {
     return null;
@@ -13,9 +13,18 @@ class ErronSlide1 extends Component {
   }
   render() {
     return (
+      <div className="row row-center full-height">
         <div>
-            erron slide 1 :D
+        <p>
+          Erron is the project that we are currently working on.
+          A puzzle-platformer with unique time travel mechanic and great story.
+          Messing with time, unraveling the past of the protagonist and remeding his life during great adventure with perfect music and storytelling.
+        </p>
+        <p>  
+          see devlog ->
+        </p>
         </div>
+      </div>
     );
   }
 }

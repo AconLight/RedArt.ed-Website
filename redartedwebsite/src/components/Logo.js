@@ -30,7 +30,6 @@ const Logo = ({change, game}) => {
     <div className="centerheader-center-inside">
         <img class={componentClasses1.join(' ')} src={require('../assets/erron.png')}/>
         <img class={componentClasses2.join(' ')} src={require('../assets/tetragonic.png')}/>
-        <img class={componentClasses3.join(' ')} src={require('../assets/LOGO_male.png')}/>
         <a className="centerheader-logo-link-a" href="https://play.google.com/store/apps/details?id=com.redartedgames.tetragonic" target="_blank">
           <img class={componentClasses1link.join(' ')} src={require('../assets/erron_get.png')}/>
         </a>

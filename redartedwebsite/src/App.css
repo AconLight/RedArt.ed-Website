@@ -13,6 +13,31 @@
   }
 }
 
+.bg-vid {
+  z-index: 0;
+}
+
+.video-cover {
+  transition: all 3s ease-in;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.video-cover.off {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+}
+
 html, body {
   overflow: hidden;
 }
